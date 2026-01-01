@@ -7,19 +7,19 @@ The **`Datasets`** folder contains the data files used for analysis.
 
 - **`qrtly_data_2020.xlsx`**
   
-  Contains quarterly returns and predictors.
+  Quarterly stock returns and predictor variables.
   
 - **`G7_International_data.xlsx`**
   
-  Contains quarterly returns and predictors for G7 countries.
+  Quarterly returns and predictor variables for G7 countries.
 
 - **`daily_stock_return.xlsx`**
   
-  Contains daily returns data.
+  Daily stock return data.
 
 - **`crsp_dailyret_1926.xlsx`**
-  
-  Contains daily returns data from 1926.
+
+  CRSP daily stock return data starting in 1926.
 
   
 
