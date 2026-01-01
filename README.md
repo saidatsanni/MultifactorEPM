@@ -27,35 +27,37 @@ The **`Datasets`** folder contains the data files used for analysis.
 The **`Codes`** folder contains the contains scripts used to construct main result tables.
 
 - **`VarSelection.R`**
-  
-  Contains the R codes for the variable selection results.
+
+  Script for the variable selection analysis.
 
 - **`Insample_prediction_main.R`**
-  
-  Contains the R codes for the in-sample prediction of one-quarter ahead returns using the full, first-half, or second-half samples.
+
+  In-sample predictive regressions for one-quarter-ahead returns using the full sample, first-half sample, and second-half sample.
 
 - **`Insample_prediction_qeret4`**
-  
-  Contains the R codes for the in-sample prediction of four-quarter ahead returns.
+
+  In-sample predictive regressions for four-quarter-ahead returns.
 
 - **`Insample_prediction_inter.R`**
-  
-  Contains the R codes for the in-sample prediction for G7 countries using the US forecasting variables. 
+
+  In-sample predictive regressions for G7 country returns using U.S. forecasting variables.
 
 - **`OOS_Compare.R`**
   
-  Contains the R codes for the out-of-sample tests - HLN, ENC-NEW, and MSEF.
-
-- **`Nonlinear_ML_Models.R`**
+  Out-of-sample forecast evaluation using the HLN, ENC-NEW, and MSE-F tests.
   
-  Contains the R codes for the out-of-sample analysis using non-linear and machine learning models.
+- **`Nonlinear_ML_Models.R`**
+
+  Out-of-sample prediction using non-linear and machine learning models.
 
 - **`MIDAS_VarianceModel.R`**
-  
-  Contains the R codes for MIDAS variance generation using daily returns, and the in-sample prediction with the MIDAS variance only.
+
+  MIDAS variance construction from daily returns and in-sample prediction using MIDAS variance only.
 
 - **`MIDAS_MultifactorModel.R`**
-Contains the R codes for MIDAS variance generation using daily returns, and the in-sample prediction with MIDAS variance, LPE, and INFL.
+  
+  MIDAS variance construction from daily returns and in-sample prediction using MIDAS variance, LPE, and INFL.
 
 - **`MIDAS_Model_GD.R`**
-Contains the R codes for MIDAS variance generation using daily returns, the in-sample prediction with LPE, INFL and Dummy for the Great Depression Period.
+  
+  MIDAS variance construction from daily returns and in-sample prediction using LPE, INFL, and a Great Depression dummy.
